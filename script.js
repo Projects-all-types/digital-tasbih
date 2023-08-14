@@ -58,8 +58,8 @@ alhamdulillahDecrimentBtn.addEventListener('click',function(){
 
 
 allahAkberIncrimentBtn.addEventListener('click', function(){
-    if(allahHuAkbarInitialValue===33){
-        return alert('Allahuakber Complete. Please Fillup anoter one') 
+    if(allahHuAkbarInitialValue===34){
+        return alert('Allahuakber Complete.You have complete all tasbih. Tap reset all tasbih to pray again ....') 
     }
 
     allahHuAkbarInitialValue +=1;
@@ -67,7 +67,7 @@ allahAkberIncrimentBtn.addEventListener('click', function(){
 })
 
 allahAkberDecrimentBtn.addEventListener('click', function(){
-    if(alhamdulliahAllahInitialValue===0){
+    if(allahHuAkbarInitialValue===0){
         return alert('You can not added negetive value..')
     }
     allahHuAkbarInitialValue -=1;
